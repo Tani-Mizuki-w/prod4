@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: #320032;
+    color: white;
+	/* 固定 */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 50%;
+	background-position-x: 55%;
+    background-position-y: 90%;
+	/* 透過 */
+	background-color:rgba(50, 0, 50, 0.6);
+	background-blend-mode:lighten;
+}
+
+.title {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 300%;
+    margin-bottom: 3%;
+}
+
+.topic {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 250%;
+    margin-bottom: 3%;
+    line-height: 200%;
+}
+
+/* .select{
+    width: 100px;
+    height: 4%;
+} */
+
+.textspace{
+    /* margin-right: auto;
+    margin-left: auto; */
+    height: 40%;
+    width: 80%;
+}

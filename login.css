@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    /* background-color: #320032; */
+    color: white;
+    background-image: url("journey.jpg");
+	/* 固定 */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 50%;
+	background-position-x: 55%;
+    background-position-y: 90%;
+	/* 透過 */
+	background-color:rgba(50, 0, 50, 0.6);
+	background-blend-mode:lighten;
+}
+
+.title {
+    /* font-family: Sacramento; */
+    /* font-family: "HiraMinPro-W6"; */
+    /* font-family: 'Rampart One', cursive; */
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 400%;
+    margin-bottom: 3%;
+}
+.title2 {
+    font-size: 200%;
+    font-family: 'RocknRoll One', sans-serif;
+    margin-top: 3%;
+}
+.topic {
+    line-height: 300%;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
